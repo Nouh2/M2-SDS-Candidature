@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-21T19:12:33.687963+00:00",
+    "seed": 42,
+    "scope": "France metropolitaine",
+    "is_mock_data": true,
+    "units": {
+      "pm25_mean": "ug/m3",
+      "asthma_hospitalization_rate": "emergency admissions per 100,000 inhabitants"
+    }
+  },
+  "global_metrics": {
+    "department_count": 96,
+    "pearson_r": 0.935,
+    "p_value": 4.1592717e-44,
+    "interpretation": "This synthetic dataset shows a positive and statistically significant correlation between PM2.5 exposure and asthma-related emergency admissions."
+  },
+  "departments": [
+    {
+      "code": "01",
+      "name": "Ain",
+      "pm25_mean": 17.1,
+      "asthma_hospitalization_rate": 125.5
+    },
+    {
+      "code": "02",
+      "name": "Aisne",
+      "pm25_mean": 12.7,
+      "asthma_hospitalization_rate": 102.1
+    },
+    {
+      "code": "03",
+      "name": "Allier",
+      "pm25_mean": 18.2,
+      "asthma_hospitalization_rate": 134.8
+    },
+    {
+      "code": "04",
+      "name": "Alpes-de-Haute-Provence",
+      "pm25_mean": 16.1,
+      "asthma_hospitalization_rate": 125.2
+    },
+    {
+      "code": "05",
+      "name": "Hautes-Alpes",
+      "pm25_mean": 8.2,
+      "asthma_hospitalization_rate": 90.9
+    },
+    {
+      "code": "06",
+      "name": "Alpes-Maritimes",
+      "pm25_mean": 19.7,
+      "asthma_hospitalization_rate": 146.9
+    },
+    {
+      "code": "07",
+      "name": "Ardeche",
+      "pm25_mean": 16.9,
+      "asthma_hospitalization_rate": 135.0
+    },
+    {
+      "code": "08",
+      "name": "Ardennes",
+      "pm25_mean": 17.2,
+      "asthma_hospitalization_rate": 150.3
+    },
+    {
+      "code": "09",
+      "name": "Ariege",
+      "pm25_mean": 8.7,
+      "asthma_hospitalization_rate": 87.4
+    },
+    {
+      "code": "10",
+      "name": "Aube",
+      "pm25_mean": 12.9,
+      "asthma_hospitalization_rate": 120.5
+    },
+    {
+      "code": "11",
+      "name": "Aude",
+      "pm25_mean": 11.8,
+      "asthma_hospitalization_rate": 101.1
+    },
+    {
+      "code": "12",
+      "name": "Aveyron",
+      "pm25_mean": 19.0,
+      "asthma_hospitalization_rate": 148.8
+    },
+    {
+      "code": "13",
+      "name": "Bouches-du-Rhone",
+      "pm25_mean": 15.4,
+      "asthma_hospitalization_rate": 121.5
+    },
+    {
+      "code": "14",
+      "name": "Calvados",
+      "pm25_mean": 17.7,
+      "asthma_hospitalization_rate": 139.9
+    },
+    {
+      "code": "15",
+      "name": "Cantal",
+      "pm25_mean": 12.8,
+      "asthma_hospitalization_rate": 120.8
+    },
+    {
+      "code": "16",
+      "name": "Charente",
+      "pm25_mean": 10.0,
+      "asthma_hospitalization_rate": 83.9
+    },
+    {
+      "code": "17",
+      "name": "Charente-Maritime",
+      "pm25_mean": 14.2,
+      "asthma_hospitalization_rate": 125.9
+    },
+    {
+      "code": "18",
+      "name": "Cher",
+      "pm25_mean": 7.8,
+      "asthma_hospitalization_rate": 87.3
+    },
+    {
+      "code": "19",
+      "name": "Correze",
+      "pm25_mean": 17.8,
+      "asthma_hospitalization_rate": 138.3
+    },
+    {
+      "code": "2A",
+      "name": "Corse-du-Sud",
+      "pm25_mean": 15.2,
+      "asthma_hospitalization_rate": 116.7
+    },
+    {
+      "code": "2B",
+      "name": "Haute-Corse",
+      "pm25_mean": 16.9,
+      "asthma_hospitalization_rate": 138.3
+    },
+    {
+      "code": "21",
+      "name": "Cote-d'Or",
+      "pm25_mean": 11.6,
+      "asthma_hospitalization_rate": 103.1
+    },
+    {
+      "code": "22",
+      "name": "Cotes-d'Armor",
+      "pm25_mean": 19.6,
+      "asthma_hospitalization_rate": 155.7
+    },
+    {
+      "code": "23",
+      "name": "Creuse",
+      "pm25_mean": 18.6,
+      "asthma_hospitalization_rate": 148.1
+    },
+    {
+      "code": "24",
+      "name": "Dordogne",
+      "pm25_mean": 17.1,
+      "asthma_hospitalization_rate": 152.1
+    },
+    {
+      "code": "25",
+      "name": "Doubs",
+      "pm25_mean": 9.5,
+      "asthma_hospitalization_rate": 93.4
+    },
+    {
+      "code": "26",
+      "name": "Drome",
+      "pm25_mean": 13.1,
+      "asthma_hospitalization_rate": 107.6
+    },
+    {
+      "code": "27",
+      "name": "Eure",
+      "pm25_mean": 7.6,
+      "asthma_hospitalization_rate": 85.3
+    },
+    {
+      "code": "28",
+      "name": "Eure-et-Loir",
+      "pm25_mean": 9.0,
+      "asthma_hospitalization_rate": 94.0
+    },
+    {
+      "code": "29",
+      "name": "Finistere",
+      "pm25_mean": 15.9,
+      "asthma_hospitalization_rate": 143.0
+    },
+    {
+      "code": "30",
+      "name": "Gard",
+      "pm25_mean": 16.7,
+      "asthma_hospitalization_rate": 143.4
+    },
+    {
+      "code": "31",
+      "name": "Haute-Garonne",
+      "pm25_mean": 19.6,
+      "asthma_hospitalization_rate": 156.4
+    },
+    {
+      "code": "32",
+      "name": "Gers",
+      "pm25_mean": 11.2,
+      "asthma_hospitalization_rate": 116.9
+    },
+    {
+      "code": "33",
+      "name": "Gironde",
+      "pm25_mean": 11.8,
+      "asthma_hospitalization_rate": 99.0
+    },
+    {
+      "code": "34",
+      "name": "Herault",
+      "pm25_mean": 13.1,
+      "asthma_hospitalization_rate": 110.9
+    },
+    {
+      "code": "35",
+      "name": "Ille-et-Vilaine",
+      "pm25_mean": 9.5,
+      "asthma_hospitalization_rate": 87.5
+    },
+    {
+      "code": "36",
+      "name": "Indre",
+      "pm25_mean": 8.7,
+      "asthma_hospitalization_rate": 87.3
+    },
+    {
+      "code": "37",
+      "name": "Indre-et-Loire",
+      "pm25_mean": 13.2,
+      "asthma_hospitalization_rate": 105.5
+    },
+    {
+      "code": "38",
+      "name": "Isere",
+      "pm25_mean": 9.9,
+      "asthma_hospitalization_rate": 102.8
+    },
+    {
+      "code": "39",
+      "name": "Jura",
+      "pm25_mean": 15.7,
+      "asthma_hospitalization_rate": 129.3
+    },
+    {
+      "code": "40",
+      "name": "Landes",
+      "pm25_mean": 12.7,
+      "asthma_hospitalization_rate": 101.8
+    },
+    {
+      "code": "41",
+      "name": "Loir-et-Cher",
+      "pm25_mean": 17.8,
+      "asthma_hospitalization_rate": 135.3
+    },
+    {
+      "code": "42",
+      "name": "Loire",
+      "pm25_mean": 16.1,
+      "asthma_hospitalization_rate": 135.9
+    },
+    {
+      "code": "43",
+      "name": "Haute-Loire",
+      "pm25_mean": 11.1,
+      "asthma_hospitalization_rate": 110.9
+    },
+    {
+      "code": "44",
+      "name": "Loire-Atlantique",
+      "pm25_mean": 17.8,
+      "asthma_hospitalization_rate": 159.3
+    },
+    {
+      "code": "45",
+      "name": "Loiret",
+      "pm25_mean": 17.5,
+      "asthma_hospitalization_rate": 164.6
+    },
+    {
+      "code": "46",
+      "name": "Lot",
+      "pm25_mean": 12.0,
+      "asthma_hospitalization_rate": 113.1
+    },
+    {
+      "code": "47",
+      "name": "Lot-et-Garonne",
+      "pm25_mean": 10.7,
+      "asthma_hospitalization_rate": 94.4
+    },
+    {
+      "code": "48",
+      "name": "Lozere",
+      "pm25_mean": 15.9,
+      "asthma_hospitalization_rate": 115.0
+    },
+    {
+      "code": "49",
+      "name": "Maine-et-Loire",
+      "pm25_mean": 8.8,
+      "asthma_hospitalization_rate": 93.3
+    },
+    {
+      "code": "50",
+      "name": "Manche",
+      "pm25_mean": 9.6,
+      "asthma_hospitalization_rate": 89.2
+    },
+    {
+      "code": "51",
+      "name": "Marne",
+      "pm25_mean": 7.1,
+      "asthma_hospitalization_rate": 77.8
+    },
+    {
+      "code": "52",
+      "name": "Haute-Marne",
+      "pm25_mean": 17.2,
+      "asthma_hospitalization_rate": 135.0
+    },
+    {
+      "code": "53",
+      "name": "Mayenne",
+      "pm25_mean": 15.6,
+      "asthma_hospitalization_rate": 129.6
+    },
+    {
+      "code": "54",
+      "name": "Meurthe-et-Moselle",
+      "pm25_mean": 16.2,
+      "asthma_hospitalization_rate": 142.3
+    },
+    {
+      "code": "55",
+      "name": "Meuse",
+      "pm25_mean": 17.1,
+      "asthma_hospitalization_rate": 140.7
+    },
+    {
+      "code": "56",
+      "name": "Morbihan",
+      "pm25_mean": 13.0,
+      "asthma_hospitalization_rate": 113.9
+    },
+    {
+      "code": "57",
+      "name": "Moselle",
+      "pm25_mean": 14.4,
+      "asthma_hospitalization_rate": 115.2
+    },
+    {
+      "code": "58",
+      "name": "Nievre",
+      "pm25_mean": 8.8,
+      "asthma_hospitalization_rate": 77.7
+    },
+    {
+      "code": "59",
+      "name": "Nord",
+      "pm25_mean": 8.5,
+      "asthma_hospitalization_rate": 85.3
+    },
+    {
+      "code": "60",
+      "name": "Oise",
+      "pm25_mean": 15.7,
+      "asthma_hospitalization_rate": 130.6
+    },
+    {
+      "code": "61",
+      "name": "Orne",
+      "pm25_mean": 13.1,
+      "asthma_hospitalization_rate": 130.3
+    },
+    {
+      "code": "62",
+      "name": "Pas-de-Calais",
+      "pm25_mean": 14.3,
+      "asthma_hospitalization_rate": 124.3
+    },
+    {
+      "code": "63",
+      "name": "Puy-de-Dome",
+      "pm25_mean": 16.9,
+      "asthma_hospitalization_rate": 146.1
+    },
+    {
+      "code": "64",
+      "name": "Pyrenees-Atlantiques",
+      "pm25_mean": 15.3,
+      "asthma_hospitalization_rate": 124.5
+    },
+    {
+      "code": "65",
+      "name": "Hautes-Pyrenees",
+      "pm25_mean": 14.2,
+      "asthma_hospitalization_rate": 112.9
+    },
+    {
+      "code": "66",
+      "name": "Pyrenees-Orientales",
+      "pm25_mean": 14.3,
+      "asthma_hospitalization_rate": 115.0
+    },
+    {
+      "code": "67",
+      "name": "Bas-Rhin",
+      "pm25_mean": 11.0,
+      "asthma_hospitalization_rate": 97.7
+    },
+    {
+      "code": "68",
+      "name": "Haut-Rhin",
+      "pm25_mean": 7.4,
+      "asthma_hospitalization_rate": 100.0
+    },
+    {
+      "code": "69",
+      "name": "Rhone",
+      "pm25_mean": 12.7,
+      "asthma_hospitalization_rate": 107.0
+    },
+    {
+      "code": "70",
+      "name": "Haute-Saone",
+      "pm25_mean": 9.8,
+      "asthma_hospitalization_rate": 103.5
+    },
+    {
+      "code": "71",
+      "name": "Saone-et-Loire",
+      "pm25_mean": 12.3,
+      "asthma_hospitalization_rate": 104.2
+    },
+    {
+      "code": "72",
+      "name": "Sarthe",
+      "pm25_mean": 18.1,
+      "asthma_hospitalization_rate": 152.4
+    },
+    {
+      "code": "73",
+      "name": "Savoie",
+      "pm25_mean": 10.0,
+      "asthma_hospitalization_rate": 101.3
+    },
+    {
+      "code": "74",
+      "name": "Haute-Savoie",
+      "pm25_mean": 7.8,
+      "asthma_hospitalization_rate": 83.7
+    },
+    {
+      "code": "75",
+      "name": "Paris",
+      "pm25_mean": 10.7,
+      "asthma_hospitalization_rate": 101.5
+    },
+    {
+      "code": "76",
+      "name": "Seine-Maritime",
+      "pm25_mean": 10.8,
+      "asthma_hospitalization_rate": 97.5
+    },
+    {
+      "code": "77",
+      "name": "Seine-et-Marne",
+      "pm25_mean": 15.6,
+      "asthma_hospitalization_rate": 134.1
+    },
+    {
+      "code": "78",
+      "name": "Yvelines",
+      "pm25_mean": 14.2,
+      "asthma_hospitalization_rate": 119.0
+    },
+    {
+      "code": "79",
+      "name": "Deux-Sevres",
+      "pm25_mean": 17.2,
+      "asthma_hospitalization_rate": 129.9
+    },
+    {
+      "code": "80",
+      "name": "Somme",
+      "pm25_mean": 15.6,
+      "asthma_hospitalization_rate": 120.5
+    },
+    {
+      "code": "81",
+      "name": "Tarn",
+      "pm25_mean": 12.3,
+      "asthma_hospitalization_rate": 112.6
+    },
+    {
+      "code": "82",
+      "name": "Tarn-et-Garonne",
+      "pm25_mean": 17.6,
+      "asthma_hospitalization_rate": 154.6
+    },
+    {
+      "code": "83",
+      "name": "Var",
+      "pm25_mean": 9.2,
+      "asthma_hospitalization_rate": 94.5
+    },
+    {
+      "code": "84",
+      "name": "Vaucluse",
+      "pm25_mean": 7.3,
+      "asthma_hospitalization_rate": 81.4
+    },
+    {
+      "code": "85",
+      "name": "Vendee",
+      "pm25_mean": 8.2,
+      "asthma_hospitalization_rate": 89.7
+    },
+    {
+      "code": "86",
+      "name": "Vienne",
+      "pm25_mean": 16.4,
+      "asthma_hospitalization_rate": 145.5
+    },
+    {
+      "code": "87",
+      "name": "Haute-Vienne",
+      "pm25_mean": 13.0,
+      "asthma_hospitalization_rate": 117.2
+    },
+    {
+      "code": "88",
+      "name": "Vosges",
+      "pm25_mean": 9.1,
+      "asthma_hospitalization_rate": 89.5
+    },
+    {
+      "code": "89",
+      "name": "Yonne",
+      "pm25_mean": 13.5,
+      "asthma_hospitalization_rate": 127.2
+    },
+    {
+      "code": "90",
+      "name": "Territoire de Belfort",
+      "pm25_mean": 9.0,
+      "asthma_hospitalization_rate": 95.5
+    },
+    {
+      "code": "91",
+      "name": "Essonne",
+      "pm25_mean": 16.1,
+      "asthma_hospitalization_rate": 145.4
+    },
+    {
+      "code": "92",
+      "name": "Hauts-de-Seine",
+      "pm25_mean": 12.8,
+      "asthma_hospitalization_rate": 115.7
+    },
+    {
+      "code": "93",
+      "name": "Seine-Saint-Denis",
+      "pm25_mean": 12.0,
+      "asthma_hospitalization_rate": 99.5
+    },
+    {
+      "code": "94",
+      "name": "Val-de-Marne",
+      "pm25_mean": 10.9,
+      "asthma_hospitalization_rate": 92.4
+    },
+    {
+      "code": "95",
+      "name": "Val-d'Oise",
+      "pm25_mean": 15.2,
+      "asthma_hospitalization_rate": 141.3
+    }
+  ]
+}
