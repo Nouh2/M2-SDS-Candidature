@@ -16,7 +16,7 @@ L'objectif n'est pas ici de produire une preuve épidémiologique réelle, mais 
 
 Site déployé :
 
-- `https://nouh2.github.io/[nom-du-depot]/`
+- `https://nouh2.github.io/M2-SDS-Candidature/`
 
 ## 1. Objectif du projet
 
