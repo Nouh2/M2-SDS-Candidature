@@ -49,10 +49,10 @@ export function Header() {
           </div>
 
           <aside className="rounded-[2rem] border border-white/70 bg-white/90 p-6 shadow-card backdrop-blur">
-            <p className="text-sm uppercase tracking-[0.2em] text-slate">Candidature ciblée</p>
+            <p className="text-sm uppercase tracking-[0.2em] text-slate">Projet exploratoire</p>
             <p className="mt-3 text-xl font-semibold leading-8 text-ink">
-              Projet interactif développé spécifiquement pour ma candidature au Master 2
-              Sciences des Données de Santé (M2 SDS) - Université Paris Saclay
+              Exploration interactive autour des liens possibles entre exposition aux
+              particules fines, indicateurs territoriaux et santé respiratoire.
             </p>
             <div className="mt-6 inline-flex rounded-full bg-warm px-4 py-2 text-sm font-medium text-ink">
               Démarche orientée statistique appliquée et santé publique

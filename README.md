@@ -1,6 +1,6 @@
-# M2 SDS Candidature
+# Projet exploratoire géo-épidémiologique
 
-Tableau de bord géo-épidémiologique statique conçu spécifiquement pour appuyer une candidature au **Master 2 Sciences des Données de Santé (M2 SDS)** de l'Université Paris-Saclay.
+Tableau de bord géo-épidémiologique statique conçu comme un **projet exploratoire** autour des liens possibles entre pollution atmosphérique, indicateurs territoriaux et santé respiratoire.
 
 Le projet croise deux dimensions à l'échelle départementale :
 
@@ -16,15 +16,15 @@ L'objectif n'est pas ici de produire une preuve épidémiologique réelle, mais 
 
 Site déployé :
 
-- `https://nouh2.github.io/M2-SDS-Candidature/`
+- `https://nouh2.github.io/[nom-du-depot]/`
 
 ## 1. Objectif du projet
 
-Ce MVP a été pensé comme une preuve concrète de trois compétences :
+Ce MVP a été pensé comme une exploration concrète de trois axes :
 
-- capacité à manipuler et structurer des données avec rigueur
-- capacité à développer une application fullstack simple de bout en bout
-- capacité à présenter une démarche statistique claire, lisible et justifiée
+- manipulation et structuration rigoureuse de données
+- développement d'une application fullstack simple de bout en bout
+- présentation d'une démarche statistique claire, lisible et justifiée
 
 Le projet prend la forme d'un site statique déployable gratuitement sur GitHub Pages.
 
@@ -34,7 +34,7 @@ Le dashboard couvre les **96 départements de France métropolitaine**.
 
 Il contient :
 
-- un header de candidature personnalisé
+- un header de présentation du projet
 - des indicateurs globaux
 - une carte choroplèthe des départements
 - un scatter plot PM2.5 vs asthme
@@ -211,7 +211,7 @@ Le frontend contient quatre briques principales :
 
 ### Header
 
-- contexte de candidature
+- contexte exploratoire du projet
 - identité du candidat
 - email, téléphone, GitHub
 
@@ -265,7 +265,7 @@ npm run build
 
 Le projet est configuré pour GitHub Pages avec :
 
-- un `base` Vite fixé sur `/M2-SDS-Candidature/`
+- un `base` Vite à adapter au nom du dépôt GitHub Pages
 - un workflow dans `.github/workflows/deploy-pages.yml`
 - des chemins statiques compatibles avec un hébergement en sous-répertoire
 
@@ -298,4 +298,3 @@ Pour une version plus avancée, les étapes suivantes seraient naturelles :
 - Email : `noe.tehraoui1@gmail.com`
 - Téléphone : `07 82 89 26 09`
 - GitHub : `https://github.com/Nouh2`
-
